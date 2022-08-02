@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form3</title>
+</head>
+<body>
+    <form action="">
+        <table>
+            <tr><b><label for="">Full Name</label></b></tr><br>
+            <tr><input type="text" placeholder="full name" required></tr><br>
+            <p>
+                <tr><b><label for="">Email*</label></b></tr><br>
+                <tr><input type="email" placeholder="enter your email" required></tr><br>
+                <p><tr><b><label for="">Password*</label></b></tr><br>
+                <tr><input type="password" placeholder="enter your password" required></tr></p>
+                <p><b><tr><label for="">Confirm Password*</label></tr></b><br>
+                <tr><input type="password" placeholder="re-enter your password" required></tr></p>
+            </p>
+        </table>
+        <table>
+            <fieldset><legend><b>Favourite Colour</b></legend>
+                <input type="radio" name="color"><label for="" style="color: green;">Green</label><br>
+                <input type="radio" name="color"><label for="" style="color: blue;">Blue</label><br>
+                <input type="radio" name="color"><label for="" style="color: black;">Black</label><br>
+                <input type="radio" name="color"<label for="" style="color: red;">Red</label><br>
+            </fieldset>
+        </table>
+        <table>
+            <fieldset>
+                <legend><b>Favourite Days of the Week</b></legend>
+                <input type="checkbox"><label for="">Monday</label><br>
+                <input type="checkbox"><label for="">Tuesday</label><br>
+                <input type="checkbox"><label for="">Wednesday</label><br>
+                <input type="checkbox"><label for="">Thursday</label><br>
+                <input type="checkbox"><label for="">Friday</label><br>
+                <input type="checkbox"><label for="">Saturday</label><br>
+                <input type="checkbox"><label for="">Sunday</label><br>
+            <table>
+                <p><b><label for="month-select">Choose your favourite Month/Season of the year:</label>
+                    <select name="Month/Season" id="Month/Season">
+                        <optgroup label="Month">Months</optgroup>
+                        <option value="January">January</option>
+                        <option value="February">February</option>
+                        <option value="March">March</option>
+                        <option value="April">April</option>
+                        <option value="May">May</option>
+                        <option value="June">June</option>
+                        <option value="July">July</option>
+                        <option value="August">August</option>
+                        <option value="September">September</option>
+                        <option value="October">October</option>
+                        <option value="November">November</option>
+                        <option value="December">December</option>
+                        <optgroup label="Seasons">Seasons</optgroup>
+                        <option value="Winter">WInter</option>
+                        <option value="Fall">Fall</option>
+                        <option value="Summer">Summer</option>
+                        <option value="Spring">Spring</option>
+                </datalist>
+            </table>
+            <table><label for="campus">Choose your campus:</label><br>
+  <input list="campuses" name="campus" id="campus">
+  <datalist id="campuses">
+    <option value="Aluta campus">
+    <option value="Uphill campus">
+    <option value="Dexters campus">
+    <option value="Town campus">
+  </datalist>
+</table>
+    </form><br>
+    <p><button style="color: blue;">Submit</button>
+    <a href="index.html">Back to homepage</a></p>
+</body>
+</html>
